@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Twitter Bootstrap Navigation Tabs and Pills</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="span4">
+                    <h3>Basic tabs</h3>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Messages</a></li>
+                    </ul>
+                </div>
+                <div class="span4">
+                    <h3>Tabs with dropdowns</h3>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span4">
+                    <h3>Stacked tabs</h3>
+                    <ul class="nav nav-tabs nav-stacked">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Messages</a></li>
+                    </ul>
+                </div>
+                <div class="span4">
+                    <h3>Basic pills</h3>
+                    <ul class="nav nav-pills">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Messages</a></li>
+                    </ul>
+                </div>
+                <div class="span4">
+                    <h3>Pills with dropdowns</h3>
+                    <ul class="nav nav-pills">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span4">
+                    <h3>Stacked pills</h3>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Messages</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span4">
+                    <h3>Nav list</h3>
+                    <div class="well" style="padding: 8px 0;">
+                        <ul class="nav nav-list">
+                            <li class="nav-header">List header</li>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Library</a></li>
+                            <li><a href="#">Applications</a></li>
+                            <li class="nav-header">Another list header</li>
+                            <li><a href="#"><i class="icon-user"></i> Profile</a></li>
+                            <li><a href="#"><i class="icon-cog"></i> Settings</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="span8">
+                    <h3>Tabbable example</h3>
+                    <p>To make tabs tabbable, create a <code>.tab-pane</code> with unique ID for every tab and wrap them in <code>.tab-content</code>.</p>
+                    <div class="tabbable" style="margin-bottom: 18px;">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+                            <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+                            <li><a href="#tab3" data-toggle="tab">Section 3</a></li>
+                        </ul>
+                        <div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
+                            <div class="tab-pane active" id="tab1">
+                                <p>I'm in Section 1.</p>
+                            </div>
+                            <div class="tab-pane" id="tab2">
+                                <p>Howdy, I'm in Section 2.</p>
+                            </div>
+                            <div class="tab-pane" id="tab3">
+                                <p>What up girl, this is Section 3.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <footer>
+                <p>&copy; Company 2012</p>
+            </footer>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+    </body>
+</html>

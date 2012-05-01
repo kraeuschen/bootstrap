@@ -1,0 +1,18 @@
+It was time for playing with Twitters Bootstrap.
+
+Based on the bootstrap minified version, i started to re-code
+documentation by my own to learn the grid-system and others features
+of bootstrap.
+
+Files i used:
+- minified bottstrap download
+- added prettify support
+- added some images from doc for using
+- added jquery.js
+
+Download and Documentation of Bootstrap:
+- http://twitter.github.com/bootstrap/
+- https://github.com/twitter/bootstrap/
+
+Idea based on:
+- http://www.w3resource.com/twitter-bootstrap/tutorial.php
